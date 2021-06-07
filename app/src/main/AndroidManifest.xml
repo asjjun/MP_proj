@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.SW_FINAL.mp_proj">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_sw"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_sw_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SMU">
+
+
+        <activity
+            android:name="com.SW_FINAL.mp_proj.LoadingActivity"
+            android:theme="@style/noActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.SW_FINAL.mp_proj.LoginActivity" />
+        <activity android:name="com.SW_FINAL.mp_proj.MainActivity" />
+        <activity android:name="com.SW_FINAL.mp_proj.SignUpActivity" />
+        <activity android:name="com.SW_FINAL.mp_proj.EmailVerifyActivity" />
+        <activity android:name="com.SW_FINAL.mp_proj.MemberinitActivity" />
+        <activity
+            android:name="com.SW_FINAL.mp_proj.WritePostActivity"
+            android:label="게시판 글쓰기" />
+        <activity android:name="com.SW_FINAL.mp_proj.ShowDeptPostActivity" />
+        <activity android:name="com.SW_FINAL.mp_proj.ShowSchoolPostActivity" />
+        <activity android:name="com.SW_FINAL.mp_proj.SchoolWritePostActivity" />
+        <activity android:name="com.SW_FINAL.mp_proj.ModiPassword" />
+        <activity android:name="com.SW_FINAL.mp_proj.InterestActivity" />
+        <activity android:name="com.SW_FINAL.mp_proj.MessageActivity" />
+        <activity android:name="com.SW_FINAL.mp_proj.MemberInfoActivity"/>
+        <activity android:name="com.SW_FINAL.mp_proj.MessageListActivity"/>
+        <service android:name="com.SW_FINAL.mp_proj.ForecdTerminationService"
+            android:stopWithTask="false"/>
+    </application>
+
+
+</manifest>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="selected">
+        <item>한국언어문화전공</item>
+        <item>일본어권지역학전공</item>
+        <item>중국어권지역학전공</item>
+        <item>영어권지역학전공</item>
+        <item>프랑스어권지역학전공</item>
+        <item>독일어권지역학전공</item>
+        <item>러시아어권지역학전공</item>
+        <item>커뮤니케이션디자인전공</item>
+        <item>패션디자인전공</item>
+        <item>텍스타일디자인전공</item>
+        <item>스페이스디자인전공</item>
+        <item>세라믹디자인전공</item>
+        <item>인더스트리얼디자인전공</item>
+        <item>미디어디자인전공</item>
+        <item>영화영상전공</item>
+        <item>연극전공</item>
+        <item>무대미술전공</item>
+        <item>사진영상미디어전공</item>
+        <item>디지털만화영상전공</item>
+        <item>문화예술경영전공</item>
+        <item>디지털콘텐츠전공</item>
+        <item>글로벌금융경영학부</item>
+        <item>식물식품공학과</item>
+        <item>그린스마트시티학과</item>
+        <item>간호학과</item>
+        <item>스포츠경영전공</item>
+        <item>사회체육전공</item>
+        <item>전자공학과</item>
+        <item>소프트웨어학과</item>
+        <item>스마트정보통신공학과</item>
+        <item>경영공학과</item>
+        <item>그린화학공학과</item>
+        <item>건설시스템공학과</item>
+        <item>정보보안공학과</item>
+        <item>시스템반도체공학과</item>
+        <item>휴먼지능로봇공학과</item>
+
+    </string-array>
+</resources>

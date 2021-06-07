@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round"
+    android:layout_margin="5dp"
+    android:padding="10dp" >
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/cv_textView1"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="이름"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:fontFamily="@font/poppinsmedium"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="#003c92" />
+
+
+            <TextView
+                android:id="@+id/cv_textView3"
+                android:layout_width="154dp"
+                android:layout_height="47dp"
+                android:layout_marginTop="40dp"
+                android:padding="10dp"
+                android:background="@drawable/round"
+                android:backgroundTint="#eaeaea"
+                android:text="내용"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:fontFamily="@font/poppinsmedium"
+                android:textSize="13sp"/>
+
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

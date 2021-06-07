@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name"><html><font color="#FFFFFF">SMU</font></html></string>
+
+    <string-array name="user_name">
+        <item>황의혁</item>
+        <item>마의혁</item>
+        <item>의혁황</item>
+        <item>hyuk</item>
+    </string-array>
+
+    <string-array name="chat_content">
+        <item>밥먹자 ! </item>
+        <item>석우밀 먹자 </item>
+        <item>맘스터치 ㄱㄱ</item>
+        <item>ㄱㄱ ?</item>
+    </string-array>
+    <string name="title_activity_message">MessageActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>

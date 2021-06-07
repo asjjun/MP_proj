@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+
+    <View
+
+        android:id="@+id/view"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="#6E91AE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/txtDepartment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        android:text="학과"
+        android:fontFamily="@font/poppinsmedium"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtGender"
+        app:layout_constraintStart_toStartOf="@+id/txtGender"
+        app:layout_constraintTop_toBottomOf="@+id/txtGender" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="28dp"
+        android:text="이름"
+        android:fontFamily="@font/poppinsmedium"
+        android:textSize="17sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view" />
+
+    <TextView
+        android:id="@+id/txtPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="전화번호"
+        android:fontFamily="@font/poppinsmedium"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtName"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtName"
+        app:layout_constraintTop_toBottomOf="@+id/txtName" />
+
+    <TextView
+        android:id="@+id/phoneCon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppinsmedium"
+        app:layout_constraintBottom_toBottomOf="@+id/txtPhone"
+        app:layout_constraintStart_toEndOf="@+id/txtPhone"
+        app:layout_constraintTop_toTopOf="@+id/txtPhone"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="주소"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toStartOf="@+id/birthCon"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtBirth"
+        app:layout_constraintTop_toBottomOf="@+id/txtBirth" />
+
+    <TextView
+        android:id="@+id/addressCon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppinsmedium"
+        app:layout_constraintBottom_toBottomOf="@+id/txtAddress"
+        app:layout_constraintStart_toEndOf="@+id/txtAddress"
+        app:layout_constraintTop_toTopOf="@+id/txtAddress"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/birthCon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:fontFamily="@font/poppinsmedium"
+        app:layout_constraintBottom_toBottomOf="@+id/txtBirth"
+        app:layout_constraintStart_toEndOf="@+id/txtBirth"
+        app:layout_constraintTop_toTopOf="@+id/txtBirth"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txtBirth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="생년월일"
+        android:fontFamily="@font/poppinsmedium"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtPhone"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/txtPhone"
+        app:layout_constraintTop_toBottomOf="@+id/txtPhone" />
+
+    <TextView
+        android:id="@+id/nameCon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppinsmedium"
+        app:layout_constraintBottom_toBottomOf="@+id/txtName"
+        app:layout_constraintStart_toEndOf="@+id/txtName"
+        app:layout_constraintTop_toTopOf="@+id/txtName"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <customfonts.MyTextView_Poppins_Medium
+        android:id="@+id/btnModify"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/blue_fill__rounded_color"
+        android:gravity="center"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:text="정보수정"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/departmentEdi" />
+
+    <customfonts.MyTextView_Poppins_Medium
+        android:id="@+id/btnPassword"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/blue_fill__rounded_color"
+        android:gravity="center"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:text="비밀번호 수정"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnModify"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.319"
+        app:layout_constraintStart_toEndOf="@+id/btnModify"
+        app:layout_constraintTop_toTopOf="@+id/btnModify"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <customfonts.MyTextView_Poppins_Medium
+        android:id="@+id/btnDelete"
+        android:layout_width="253dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/blue_fill__rounded_color"
+        android:gravity="center"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:text="회원탈퇴"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="@+id/btnPassword"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="@+id/btnModify"
+        app:layout_constraintTop_toBottomOf="@+id/btnModify" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/phoneEdi"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app.errorEnabled="true"
+        android:layout_width="200dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="4dp"
+        android:hint="phone"
+        android:visibility="invisible"
+        app:boxCornerRadiusBottomEnd="15dp"
+        app:boxCornerRadiusBottomStart="15dp"
+        app:boxCornerRadiusTopEnd="15dp"
+        app:boxCornerRadiusTopStart="15dp"
+        app:counterMaxLength="11"
+        app:endIconMode="clear_text"
+        app:errorEnabled="true"
+        app:helperTextTextColor="#FF0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.442"
+        app:layout_constraintStart_toStartOf="@+id/txtPhone"
+        app:layout_constraintTop_toBottomOf="@+id/phoneCon">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/phoneEditText"
+            android:layout_width="197dp"
+            android:layout_height="50dp"
+            android:inputType="textPostalAddress"
+            android:maxLength="11"
+            android:textSize="15sp"></com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/addressEdi"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        app.errorEnabled="true"
+        android:layout_width="200dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:hint="address"
+        android:visibility="invisible"
+        app:boxCornerRadiusBottomEnd="15dp"
+        app:boxCornerRadiusBottomStart="15dp"
+        app:boxCornerRadiusTopEnd="15dp"
+        app:boxCornerRadiusTopStart="15dp"
+        app:counterMaxLength="30"
+        app:endIconMode="clear_text"
+        app:errorEnabled="true"
+        app:helperTextTextColor="#FF0000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toStartOf="@+id/txtAddress"
+        app:layout_constraintTop_toBottomOf="@+id/addressCon">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/addressEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPostalAddress"
+            android:maxLength="30"
+            android:textSize="15sp"></com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/txtGender"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="69dp"
+        android:text="성별"
+        android:fontFamily="@font/poppinsmedium"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="@+id/txtAddress"
+        app:layout_constraintStart_toStartOf="@+id/txtAddress"
+        app:layout_constraintTop_toBottomOf="@+id/txtAddress" />
+
+    <TextView
+        android:id="@+id/genderCon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppinsmedium"
+        app:layout_constraintBottom_toBottomOf="@+id/txtGender"
+        app:layout_constraintStart_toEndOf="@+id/txtGender"
+        app:layout_constraintTop_toTopOf="@+id/txtGender"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/departmentCon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:textSize="16sp"
+        android:fontFamily="@font/poppinsmedium"
+        app:layout_constraintBottom_toBottomOf="@+id/txtDepartment"
+        app:layout_constraintStart_toEndOf="@+id/txtDepartment"
+        app:layout_constraintTop_toTopOf="@+id/txtDepartment"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+    <customfonts.MyTextView_Poppins_Medium
+        android:id="@+id/phoneModi"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/blue_fill__rounded_color"
+        android:gravity="center"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:text="수정"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/phoneCon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/phoneCon"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <customfonts.MyTextView_Poppins_Medium
+        android:id="@+id/addressModi"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/blue_fill__rounded_color"
+        android:gravity="center"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:text="수정"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/addressCon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/addressCon"
+        app:layout_constraintVertical_bias="0.714" />
+
+    <customfonts.MyTextView_Poppins_Medium
+        android:id="@+id/departmentModi"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginEnd="60dp"
+        android:background="@drawable/blue_fill__rounded_color"
+        android:gravity="center"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:text="수정"
+        android:textColor="#ffffff"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/departmentCon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/departmentCon"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="271dp"
+        android:text="회원정보수정"
+        android:fontFamily="@font/poppinsmedium"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/departmentEdi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:entries="@array/selected"
+        android:visibility="invisible"
+        app:layout_constraintEnd_toEndOf="@+id/departmentModi"
+        app:layout_constraintHorizontal_bias="0.045"
+        app:layout_constraintStart_toStartOf="@+id/departmentCon"
+        app:layout_constraintTop_toBottomOf="@+id/departmentCon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

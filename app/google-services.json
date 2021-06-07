@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "525467825990",
+    "project_id": "mp-project-be72b",
+    "storage_bucket": "mp-project-be72b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525467825990:android:1529f554e4a83d29135747",
+        "android_client_info": {
+          "package_name": "com.SMU_FINAL.mp_proj"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525467825990-07j79pi84bqq2guuchanh3rsds6g3mkp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPsD6oYLrbDcJNtslJ6AXHCUppTr9G_kU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525467825990-07j79pi84bqq2guuchanh3rsds6g3mkp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
