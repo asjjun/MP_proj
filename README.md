@@ -54,13 +54,13 @@ SW는 (Sangmyung 友) 코로나 시국에 비대면으로 하는 수업이 많�
  
  ### <로그인 화면>
 
-<img width="30%" height = "500%"  src="https://user-images.githubusercontent.com/79883776/121015875-72547b00-c7d6-11eb-86b1-32653126c0c0.png"> <img width="30%" height = "500%"  src="https://user-images.githubusercontent.com/29851772/121023850-a3d14480-c7de-11eb-8bcc-6c164519a61c.PNG">
+<img width="300px" height = "550px"  src="https://user-images.githubusercontent.com/79883776/121015875-72547b00-c7d6-11eb-86b1-32653126c0c0.png"> <img width="300px" height = "550px"  src="https://user-images.githubusercontent.com/29851772/121023850-a3d14480-c7de-11eb-8bcc-6c164519a61c.PNG">
 
  어플리케이션을 실행 시킨 후 로그인 화면이 나온다. <br>회원가입 버튼을 누르고 학교 이메일과 사용할 비밀번호를 입력한다. 
  
  ### <이메일 인증>
  
-<img width="30%" height = "30%"  src="https://user-images.githubusercontent.com/29851704/121016972-b98f3b80-c7d7-11eb-9aa9-15ae993e8f74.png"> <img width="30%" height = "30%"  src="https://user-images.githubusercontent.com/29851704/121016938-b431f100-c7d7-11eb-88ca-d34b4f790d2a.png">
+<img width="300px" height = "550px"  src="https://user-images.githubusercontent.com/29851704/121016972-b98f3b80-c7d7-11eb-9aa9-15ae993e8f74.png"> <img width="300px" height = "550px"  src="https://user-images.githubusercontent.com/29851704/121016938-b431f100-c7d7-11eb-88ca-d34b4f790d2a.png">
  
 회원가입한 이메일로 로그인을 해주고 인증 이메일 보내기 버튼을 클릭하면 자신이 등록한 이메일로 메일이 간다. <br>그걸 클릭해주면 이메일 인증 완료.
 
@@ -134,14 +134,14 @@ SW는 (Sangmyung 友) 코로나 시국에 비대면으로 하는 수업이 많�
 
 ### <게시판>
 
-<img width="30%" height = "30%" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120702452-0da3d280-c4ef-11eb-82ea-b51aa76cc468.jpg"> <img width="30%" height = "550dp" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120702563-31671880-c4ef-11eb-9f98-fba3d69e435a.jpg">
+<img width="300px" height = "550px" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120702452-0da3d280-c4ef-11eb-82ea-b51aa76cc468.jpg"> <img width="300px" height = "550px" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120702563-31671880-c4ef-11eb-9f98-fba3d69e435a.jpg">
 
 어플 내 게시판은 '학과 게시판', '학교 게시판' 두가지로 나뉜다.<br>
 '학과 게시판'은  회원가입시 설정한 학과가 같은 이용자들 끼리만 사용할 수 있는 게시판이다.<br>
 '학교 게시판'은 학과 상관없이 모든 학교 학생들이 사용할 수 있는 게시판이다. <br><br><br>
 
 
-<img width="30%" height = "30%" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120928998-29db8580-c722-11eb-9a7c-058e21b90698.jpg"> <img width="30%" height = "540dp" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120929012-3c55bf00-c722-11eb-93d9-6544f5b89169.jpg">
+<img width="300px" height = "550px" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120928998-29db8580-c722-11eb-9a7c-058e21b90698.jpg"> <img width="300px" height = "550px" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120929012-3c55bf00-c722-11eb-93d9-6544f5b89169.jpg">
 
 게시판 내의 게시글에는 이용자들끼리 댓글을 작성할 수도 있고, 오른쪽 사진과 같이 게시글에 사진을 첨부할 수도 있다.<br/><br/>
 
