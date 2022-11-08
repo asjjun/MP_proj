@@ -54,7 +54,7 @@ SW는 (Sangmyung 友) 코로나 시국에 비대면으로 하는 수업이 많�
  
  ### <로그인 화면>
 
-<img width="30%" height = "500%"  src="https://user-images.githubusercontent.com/79883776/121015875-72547b00-c7d6-11eb-86b1-32653126c0c0.png"> <img width="30%" height = "556dp"  src="https://user-images.githubusercontent.com/29851772/121023850-a3d14480-c7de-11eb-8bcc-6c164519a61c.PNG">
+<img width="30%" height = "500%"  src="https://user-images.githubusercontent.com/79883776/121015875-72547b00-c7d6-11eb-86b1-32653126c0c0.png"> <img width="30%" height = "500%"  src="https://user-images.githubusercontent.com/29851772/121023850-a3d14480-c7de-11eb-8bcc-6c164519a61c.PNG">
 
  어플리케이션을 실행 시킨 후 로그인 화면이 나온다. <br>회원가입 버튼을 누르고 학교 이메일과 사용할 비밀번호를 입력한다. 
  
