@@ -1,7 +1,13 @@
 # SW(Sangmyung 友) 
 <p align="center">
 <img width="400px" src="https://user-images.githubusercontent.com/29851772/120697106-468c7900-c4e8-11eb-9b9f-0e5a608e5bfc.png">
-  
+<br>
+<img src="https://img.shields.io/badge/Java-007396?style=flat-square&logo=Java&logoColor=white"/>
+<img src="https://img.shields.io/badge/Android Studio-3DDC84?style=flat-square&logo=Android&logoColor=white"/>
+<img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black"/>
+<img src="https://img.shields.io/badge/Google PlayStore-414141?style=flat-square&logo=Google Play&logoColor=white"/>
+
+<br>
 </p>
 
 <!-- TABLE OF CONTENTS -->
