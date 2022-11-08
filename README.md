@@ -194,7 +194,7 @@ APK가 업로드되면 수익창출 > 제품 > 인앱상품 순으로 들어가
 
 어플리케이션에서 사용할 아이템을 만들어 줍니다.
 
-<img width = "800px" height ="120px" src = "https://user-images.githubusercontent.com/79883776/120707555-71c99500-c4f5-11eb-8d5c-e1a760ca4eb3.JPG">
+<img width = "800px" height ="100px" src = "https://user-images.githubusercontent.com/79883776/120707555-71c99500-c4f5-11eb-8d5c-e1a760ca4eb3.JPG">
 
 (단, 인앱상품의 id를 지정해줄때 android studio의 MarketFragment에 있는 id값과 같게 해야함. )
 
