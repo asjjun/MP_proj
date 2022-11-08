@@ -49,7 +49,7 @@ SW는 (Sangmyung 友) 코로나 시국에 비대면으로 하는 수업이 많�
  ### <로딩 화면>
 
 
- <img width="30%" height = "30%"  src="https://user-images.githubusercontent.com/79883776/121015827-649ef580-c7d6-11eb-8cc5-06c5dd287bf9.png ">
+ <img width="300px" height = "550px"  src="https://user-images.githubusercontent.com/79883776/121015827-649ef580-c7d6-11eb-8cc5-06c5dd287bf9.png ">
  
  
  ### <로그인 화면>
@@ -66,7 +66,7 @@ SW는 (Sangmyung 友) 코로나 시국에 비대면으로 하는 수업이 많�
 
 ### <회원정보 입력>
 
-<img width="30%" height = "30%"  src="https://user-images.githubusercontent.com/79888537/120705692-1b5b5700-c4f3-11eb-994a-3edb0a2754cd.gif">
+<img width="300px" height = "550px"  src="https://user-images.githubusercontent.com/79888537/120705692-1b5b5700-c4f3-11eb-994a-3edb0a2754cd.gif">
 
 이메일 인증을 완료하면 회원정보를 입력할 수 있는 화면이 나온다.
 <br>
@@ -76,12 +76,12 @@ SW는 (Sangmyung 友) 코로나 시국에 비대면으로 하는 수업이 많�
 <br>
 만약 잘못 입력했다면 EditText 오른쪽 맨끝에 버튼을 눌러 입력했던 값을 다 지워줄 수 있다.
 
-<img width="30%" height = "30%"  src="https://user-images.githubusercontent.com/79888537/120705698-1e564780-c4f3-11eb-9261-bd3888188fbe.gif">
+<img width="300px" height = "550px"  src="https://user-images.githubusercontent.com/79888537/120705698-1e564780-c4f3-11eb-9261-bd3888188fbe.gif">
 
 만약 저 범위를 벗어난채로 회원정보 등록을 하면 
 글자수가 너무 길다는 토스트 메세지가 나오게 된다. 
 
-<img width="30%" height = "30%"  src="https://user-images.githubusercontent.com/79888537/120705707-21513800-c4f3-11eb-8045-43356da01620.gif">
+<img width="300px" height = "550px"  src="https://user-images.githubusercontent.com/79888537/120705707-21513800-c4f3-11eb-8045-43356da01620.gif">
 
 또한 빈칸이 존재한 채로 회원정보 등록 버튼을 누르게 되면 빈칸을 입력하라는 토스트 메세지가 뜬다.
 
@@ -93,7 +93,7 @@ SW는 (Sangmyung 友) 코로나 시국에 비대면으로 하는 수업이 많�
 <br>메인엑티비티 우측 최상단 사람 모양 아이콘을 클릭하면 들어갈 수 있다.
 
 
-<img width="30%" height = "30%"  src="https://user-images.githubusercontent.com/79888537/120705780-362dcb80-c4f3-11eb-9e6d-bcc7ce47c8db.gif">
+<img width="300px" height = "550px"  src="https://user-images.githubusercontent.com/79888537/120705780-362dcb80-c4f3-11eb-9e6d-bcc7ce47c8db.gif">
 
 회원정보중에 수정할 수 있는 데이터는 전화번호, 주소, 학과를 변경 할 수 있다.
 <br> 
