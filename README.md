@@ -87,7 +87,7 @@ SW는 (Sangmyung 友) 코로나 시국에 비대면으로 하는 수업이 많�
 
 ### <회원정보 수정>
 
-<img width="30%" height = "30%"  src="https://user-images.githubusercontent.com/79888537/120705755-2dd59080-c4f3-11eb-808b-0d0c130325ce.jpg">
+<img width="300px" height = "550px"  src="https://user-images.githubusercontent.com/79888537/120705755-2dd59080-c4f3-11eb-808b-0d0c130325ce.jpg">
 
 회원가입하고 등록했던 정보들을 확인할 수 있는 액티비티이다. 
 <br>메인엑티비티 우측 최상단 사람 모양 아이콘을 클릭하면 들어갈 수 있다.
@@ -103,18 +103,18 @@ SW는 (Sangmyung 友) 코로나 시국에 비대면으로 하는 수업이 많�
 
 ### <매칭 기능>
 
-<img width="40%" height = "50%"  src="https://user-images.githubusercontent.com/29851772/121031978-ce72cb80-c7e5-11eb-96b3-de71d616ac3d.gif"> <img width="40%" height = "50%"  src="https://user-images.githubusercontent.com/29851772/121032164-fcf0a680-c7e5-11eb-91b0-338c6977ceb6.gif">
+<img width="400px" height = "400px"  src="https://user-images.githubusercontent.com/29851772/121031978-ce72cb80-c7e5-11eb-96b3-de71d616ac3d.gif"> <img width="400px" height = "400px"  src="https://user-images.githubusercontent.com/29851772/121032164-fcf0a680-c7e5-11eb-91b0-338c6977ceb6.gif">
 
 왼쪽을 보면 매칭 버튼 클릭 시 매칭 대기중이라는 표시로 로딩 애니메이션이 돌아가고 한번 더 클릭 시 해제되는 모습을 볼 수 있다.<br>
 오른쪽은 매칭 버튼 클릭 후 관심사에 맞는 인원이 매칭 되었을때 매칭이 잡히고 채팅방이 만들어지는 모습이다. <br>
 매칭 후 생기는 채팅방과 채팅하는 장면은 아래 <a href="#영상">영상</a>에서 더 자세히 확인 할 수 있다.
 
-<img width="90%" height = "60%"  src="https://user-images.githubusercontent.com/29851772/121031679-8784d600-c7e5-11eb-8304-887e31362403.gif">
+<img width="850px" height = "60%"  src="https://user-images.githubusercontent.com/29851772/121031679-8784d600-c7e5-11eb-8304-887e31362403.gif">
 
 매칭이 잡히는 순간을 데이터베이스와 함께 보면 매칭을 누른 사람들이 테이블에 들어오고<br>
 오른쪽 에뮬레이터에서도 매칭버튼을 눌러주어 관심사의 인원을 충족 하는 순간 매칭이 잡히면서 테이블은 삭제된다. 
 
-<img width="90%" height = "60%"  src="https://user-images.githubusercontent.com/29851772/121031506-5b695500-c7e5-11eb-8094-780151777903.gif">
+<img width="850px" height = "60%"  src="https://user-images.githubusercontent.com/29851772/121031506-5b695500-c7e5-11eb-8094-780151777903.gif">
 
 관심사 별로 각각 테이블이 있어 관심사가 다르다면 함께 매칭되지않고 같은 관심사인 사람들끼리만 매칭 되는 모습이다.
 
@@ -147,15 +147,15 @@ SW는 (Sangmyung 友) 코로나 시국에 비대면으로 하는 수업이 많�
 
 ### <게시판 데이터베이스 부분>
 
-<img width="40%" height = "40%" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120955102-9ccd1680-c78b-11eb-8ac9-8a558331f417.png">
+<img width="600px" height = "380px" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120955102-9ccd1680-c78b-11eb-8ac9-8a558331f417.png">
 
 데이터베이스에 접속해보면 위의 사진과 같이 'SchoolPosts', 'deptPosts'로 학교게시판과 학과게시판이 나눠져 구성 되어있는것을 확인할 수 있다.<br/>
 
-<img width="50%" height = "50%" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120955306-077e5200-c78c-11eb-8a6d-e57467ced53f.png">
+<img width="600px" height = "380px" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120955306-077e5200-c78c-11eb-8a6d-e57467ced53f.png">
 
 'SchoolPosts'테이블에는 학교게시판에 작성된 게시물들의 작성 일시, 제목, 내용, 작성자UID가 저장되게 된다.<br/>
 
-<img width="50%" height = "50%" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120955454-5b893680-c78c-11eb-9c54-0908a8b3441f.png">
+<img width="600px" height = "380px" alt="채팅" src="https://user-images.githubusercontent.com/29966841/120955454-5b893680-c78c-11eb-9c54-0908a8b3441f.png">
 
 'deptPosts'테이블에는 학과게시판에 작성된 게시물들의 작성 일시, 제목, 내용, 작성자UID가 저장되게 된다. 또한 작성자들의 학과별로 구분되어 데이터베이스에 저장되는것을 확인할 수 있다.
 
@@ -175,7 +175,8 @@ SW는 (Sangmyung 友) 코로나 시국에 비대면으로 하는 수업이 많�
 
 테스트 건으로 처리되어 실제 돈이 청구되지 않는다. 
 
-<img width = "55%" height ="55%" src = "https://user-images.githubusercontent.com/79883776/120706077-9e7cad00-c4f3-11eb-8635-9e80e3fe3830.png">
+<img width="600px" height = "450px" alt="채팅" src="https://user-images.githubusercontent.com/29851772/200575210-6aa9849e-5a11-4027-b43f-c754df9a88a8.png">
+
 
 ### <앱 만들기>
 
@@ -193,7 +194,7 @@ APK가 업로드되면 수익창출 > 제품 > 인앱상품 순으로 들어가
 
 어플리케이션에서 사용할 아이템을 만들어 줍니다.
 
-<img width = "65%" height ="65%" src = "https://user-images.githubusercontent.com/79883776/120707555-71c99500-c4f5-11eb-8d5c-e1a760ca4eb3.JPG">
+<img width = "800px" height ="120px" src = "https://user-images.githubusercontent.com/79883776/120707555-71c99500-c4f5-11eb-8d5c-e1a760ca4eb3.JPG">
 
 (단, 인앱상품의 id를 지정해줄때 android studio의 MarketFragment에 있는 id값과 같게 해야함. )
 
