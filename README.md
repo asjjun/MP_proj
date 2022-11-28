@@ -181,7 +181,7 @@ SW는 (Sangmyung 友) 코로나 시국에 비대면으로 하는 수업이 많�
 
 테스트 건으로 처리되어 실제 돈이 청구되지 않는다. 
 
-<img width="600px" height = "450px" alt="채팅" src="https://user-images.githubusercontent.com/29851772/200575210-6aa9849e-5a11-4027-b43f-c754df9a88a8.png">
+<img width="650px" height = "450px" alt="채팅" src="https://user-images.githubusercontent.com/29851772/200575210-6aa9849e-5a11-4027-b43f-c754df9a88a8.png">
 
 
 ### <앱 만들기>
@@ -207,13 +207,13 @@ APK가 업로드되면 수익창출 > 제품 > 인앱상품 순으로 들어가
 
 <br>
 
-<img width = "30%" height ="550dp" src = "https://user-images.githubusercontent.com/79883776/120707098-df28f600-c4f4-11eb-81d1-aa3425e6e430.gif"> <img width = "50%" height ="550dp" src = "https://user-images.githubusercontent.com/29851772/121029154-54d9de00-c7e3-11eb-88eb-3a20ec065e8c.gif"> 
+<img width = "300px" height ="550dp" src = "https://user-images.githubusercontent.com/79883776/120707098-df28f600-c4f4-11eb-81d1-aa3425e6e430.gif"> <img width = "50%" height ="550dp" src = "https://user-images.githubusercontent.com/29851772/121029154-54d9de00-c7e3-11eb-88eb-3a20ec065e8c.gif"> 
 
 
  다이아몬드 품목별 인앱상품과 결제 영상
 
 
-<img width = "30%" height ="30%" src = "https://user-images.githubusercontent.com/29851704/121016557-3b329980-c7d7-11eb-9861-d47c009b403e.jpg">
+<img width = "300px" height ="30%" src = "https://user-images.githubusercontent.com/29851704/121016557-3b329980-c7d7-11eb-9861-d47c009b403e.jpg">
 
  다이아몬드 결제 내역
 
